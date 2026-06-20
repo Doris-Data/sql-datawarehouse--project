@@ -133,7 +133,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
  About Me
 
-Hi there! I'm Doris Twumasi. I’m an emerging data analyst with a growing interest in data warehousing, analytics, and turning raw data into useful insights. This project reflects my hands-on exploration of how data warehouses are designed, built, and used to support better reporting and decision-making. I am actively developing my skills through practical projects and continuous learning.
+Hi there! I'm Doris Twumasi Martins. I’m an emerging data analyst with a growing interest in data warehousing, analytics, and turning raw data into useful insights. This project reflects my hands-on exploration of how data warehouses are designed, built, and used to support better reporting and decision-making. I am actively developing my skills through practical projects and continuous learning.
 
 
 
