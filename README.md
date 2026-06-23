@@ -12,6 +12,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 Data Architecture
 
 The data architecture for this project follows Medallion Architecture: Bronze, Silver, and Gold layers:
+
 [Data Architecture](docs/data_architecture.png)
 
 1.Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into MYSQL Database.
@@ -38,21 +39,21 @@ Everything is for Free!
 - [Notion](https://www.notion.com/):All-in-one tool for project management and organization.
 
 
-Project Requirements
+## Project Requirements
 Building the Data Warehouse (Data Engineering)
 
-Objective
+## Objective
 
 Develop a modern data warehouse using MYSQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-Specifications
+## Specifications
 - Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
 - Data Quality: Cleanse and resolve data quality issues prior to analysis.
 - Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - Scope: Focus on the latest dataset only; historization of data is not required.
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
-BI: Analytics & Reporting (Data Analysis)
+## BI: Analytics & Reporting (Data Analysis)
 
  Objective
 Develop SQL-based analytics to deliver detailed insights into:
@@ -69,67 +70,70 @@ data-warehouse-project/
 │
 ├── datasets/                          
 
-# Raw datasets used for the project (ERP and CRM data)
+## Raw datasets used for the project (ERP and CRM data)
 
 │
 ├── docs/                               
 
-# Project documentation and architecture details
+## Project documentation and architecture details
 
 │   ├── etl.drawio                      
 
-# Draw.io file shows all different techniquies and methods of ETL
+## Draw.io file shows all different techniquies and methods of ETL
 
 │   ├── data_architecture.drawio       
 
-# Draw.io file shows the project's architecture
+## Draw.io file shows the project's architecture
 
 │   ├── data_catalog.md                 
 
-# Catalog of datasets, including field descriptions and metadata
+## Catalog of datasets, including field descriptions and metadata
 
 │   ├── data_flow.drawio                
-# Draw.io file for the data flow diagram
+## Draw.io file for the data flow diagram
 
 │   ├── data_models.drawio             
-# Draw.io file for data models (star schema)
+## Draw.io file for data models (star schema)
 
 │   ├── naming-conventions.md           
-# Consistent naming guidelines for tables, columns, and files
+## Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            
-# SQL scripts for ETL and transformations
+## SQL scripts for ETL and transformations
 
 │   ├── bronze/                         
-# Scripts for extracting and loading raw data
+## Scripts for extracting and loading raw data
 
 │   ├── silver/                        
-# Scripts for cleaning and transforming data
+## Scripts for cleaning and transforming data
 
 │   ├── gold/                           
-# Scripts for creating analytical models
+## Scripts for creating analytical models
 
 │
 ├── tests/                             
-# Test scripts and quality files
+## Test scripts and quality files
 
 │
 ├── README.md                           
-# Project overview and instructions
+## Project overview and instructions
 
 ├── LICENSE                            
-# License information for the repository
+## License information for the repository
 
 ├── .gitignore                          
-# Files and directories to be ignored by Git
+## Files and directories to be ignored by Git
 
 └── requirements.txt                    
-# Dependencies and requirements for the project
+## Dependencies and requirements for the project
 
 
  License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+This project is licensed under the [MIT License](LICENSE). 
+
+## Attribution
+This project was built by following the SQL Datawarehouse PROJECT tutorial by Data with Baraa. The project structure, SQL scripts, datasets,diagram are based on the original project.
 
  About Me
 
