@@ -13,7 +13,7 @@ Data Architecture
 
 The data architecture for this project follows Medallion Architecture: Bronze, Silver, and Gold layers:
 
-[Data Architecture](docs/data_architecture.png)
+[Data Architecture](doc/SQL DATA ARCHITECTURE-page-1.drawio.png)  
 
 1.Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into MYSQL Database.
 
@@ -21,7 +21,7 @@ The data architecture for this project follows Medallion Architecture: Bronze, S
 
 3.Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-Project Overview
+## Project Overview
 
 This project involves:
 1. Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
@@ -32,8 +32,8 @@ This project involves:
  
 Important Tools:
 Everything is for Free!
-- [Datasets](datasets/): Access to the project dataset (csv files). Datasets Credit: Data by Baraa (https://www.datawithbaraa.com)
-- MYSQL
+- [Datasets](datasets/): Access to the project dataset (csv files). (https://www.datawithbaraa.com)
+- SQL Server
 - GitHub Account
 - [DrawIO](https://www.drawio.com/):Design data architecture, models, flows, and diagrams.
 - [Notion](https://www.notion.com/):All-in-one tool for project management and organization.
@@ -44,7 +44,7 @@ Building the Data Warehouse (Data Engineering)
 
 ## Objective
 
-Develop a modern data warehouse using MYSQL to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 ## Specifications
 - Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
@@ -133,7 +133,7 @@ data-warehouse-project/
 This project is licensed under the [MIT License](LICENSE). 
 
 ## Attribution
-This project was built by following the SQL Datawarehouse PROJECT tutorial by Data with Baraa. The project structure, SQL scripts, datasets,diagram are based on the original project.
+This project was built by following the SQL Datawarehouse project tutorial by Data with Baraa and publicly provided CRM and ERP datasets. The project structure, SQL scripts, datasets, diagram are based on the original project. (https://www.datawithbaraa.com)
 
  ## About Me
 
