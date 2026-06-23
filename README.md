@@ -13,7 +13,7 @@ Data Architecture
 
 The data architecture for this project follows Medallion Architecture: Bronze, Silver, and Gold layers:
 
-[Data Architecture](doc/SQL DATA ARCHITECTURE-page-1.drawio.png)  
+[Data Architecture](docs/image/data-architecture.png)  
 
 1.Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into MYSQL Database.
 
