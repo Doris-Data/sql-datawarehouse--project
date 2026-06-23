@@ -1,6 +1,6 @@
 # sql-datawarehouse-project
 
-Building data warehouse with MYSQL, including ETL processes, data modeling &amp; analysis.
+Building data warehouse with SQL Server, including ETL processes, data modeling &amp; analysis.
 
 Data Warehouse and Analytics Project
 
