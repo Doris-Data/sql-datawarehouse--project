@@ -64,7 +64,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
 
- Repository Structure
+## Repository Structure
 
 data-warehouse-project/
 │
@@ -135,7 +135,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Attribution
 This project was built by following the SQL Datawarehouse PROJECT tutorial by Data with Baraa. The project structure, SQL scripts, datasets,diagram are based on the original project.
 
- About Me
+ ## About Me
 
 Hi there! I'm Doris Twumasi Martins. I’m an emerging data analyst with a growing interest in data warehousing, analytics, and turning raw data into useful insights. This project reflects my hands-on exploration of how data warehouses are designed, built, and used to support better reporting and decision-making. I am actively developing my skills through practical projects and continuous learning.
 
